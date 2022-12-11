@@ -5,5 +5,5 @@ Made by- Yash Verma
 A basic python terminal based text editor.
 
 ## Modules Used
+- PyQt5
 - keyboard
-- os
