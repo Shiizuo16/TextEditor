@@ -2,6 +2,7 @@ from PyQt5.QtWidgets import *
 from PyQt5.QtGui import QFont, QKeySequence
 from PyQt5 import uic
 import sys
+import os
 
 class EditorGUI(QMainWindow):
 
@@ -135,9 +136,13 @@ class EditorGUI(QMainWindow):
 
 
 def main():
+    # Folder to save files
+    if not os.path.isdir('Files'):
+        os.mkdir('Files')
+    # Application
     app = QApplication([])
     window = EditorGUI()
-    app.exec_()
+    app.exec_() # executing app
 
 if __name__ == '__main__':
     main()
