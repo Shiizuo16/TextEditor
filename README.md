@@ -2,7 +2,7 @@
 Made by- Yash Verma
 
 ## Description
-A basic python terminal based text editor.
+A basic text editor with GUI.
 
 ## Modules Used
 - PyQt5
